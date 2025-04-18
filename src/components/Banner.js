@@ -14,7 +14,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Aaida Asad", "a graphic designer", "3D artist"];
+  const toRotate = [ "Aaida Asad", "a graphic designer", "a 3D artist"];
   const period = 1000;
 
   useEffect(() => {
