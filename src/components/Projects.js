@@ -6,14 +6,14 @@ import chatserver from "../assets/img/chat-server.png"
 import artblog from "../assets/img/art-blog.png"
 import cosmicCarnage from "../assets/img/cosmic-carnage.png"
 import tiktok from "../assets/img/tiktok.jpg"
-import mindcraft from "../assets/img/mindcraft.jpg"
+import shadowsofjustice from "../assets/img/shadowsofjustice.png"
 
 export const Projects = () => {
   const projectData = [
     {
-      title: 'MindCraft',
-      img: mindcraft,
-      link: '/projects/mindcraft',
+      title: 'Shadows of Justice',
+      img: shadowsofjustice,
+      link: '/projects/shadowsofjustice',
     },
     {
       title: 'Cosmic Carnage',

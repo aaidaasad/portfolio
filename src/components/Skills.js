@@ -6,10 +6,9 @@ export const Skills = () => {
       title: '3D Modeling & Animation',
       skills: [
         'Autodesk Maya',
-        'Blender',
         'Rigging & UV Mapping',
-        'Character Design',
         'Environment Design',
+        'Texturing & Shading'
       ],
     },
     {
@@ -20,6 +19,9 @@ export const Skills = () => {
         'Game UI/UX Design',
         'Asset Integration',
         'Level Design',
+        'Prototyping',
+        'Version Control (Git)',
+        'FPS Mechanics'
       ],
     },
     {
@@ -27,9 +29,11 @@ export const Skills = () => {
       skills: [
         'Adobe Illustrator',
         'Adobe Photoshop',
-        'Adobe After Effects',
+        'Adobe Premiere Pro',
         'Branding & Logo Design',
         'UI Mockups & Visual Assets',
+        'Canva',
+        'Figma'
       ],
     },
   ];
