@@ -5,9 +5,11 @@ import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
-import MindCraftProject from './components/projects/MindCraftProject';
-import {Route, Routes} from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
+// Import project pages
+import ShadowsOfJusticeProject from './components/projects/shadowsofjustice';
+import EchoesOfTheForest from './components/projects/echoesoftheforest'; // ✅ Import added here
 
 function Home() {
     return (
@@ -25,7 +27,8 @@ function App() {
     return (
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/projects/mindcraft" element={<MindCraftProject />} />
+            <Route path="/projects/shadowsofjustice" element={<ShadowsOfJusticeProject />} />
+            <Route path="/projects/echoesoftheforest" element={<EchoesOfTheForest />} /> {/* ✅ New route added */}
         </Routes>
     );
 }

@@ -4,7 +4,7 @@ import boggle from "../assets/img/boggle.png"
 import tetris from "../assets/img/tetris.png"
 import chatserver from "../assets/img/chat-server.png"
 import artblog from "../assets/img/art-blog.png"
-import cosmicCarnage from "../assets/img/cosmic-carnage.png"
+import echoesoftheforest from "../assets/img/echoesoftheforest.png"
 import tiktok from "../assets/img/tiktok.jpg"
 import shadowsofjustice from "../assets/img/shadowsofjustice.png"
 
@@ -16,9 +16,9 @@ export const Projects = () => {
       link: '/projects/shadowsofjustice',
     },
     {
-      title: 'Cosmic Carnage',
-      img: cosmicCarnage,
-      link: '/projects/cosmic-carnage',
+      title: 'Echoes of the Forest',
+      img: echoesoftheforest,
+      link: '/projects/echoesoftheforest',
     },
     {
       title: 'TikTok Data App',
