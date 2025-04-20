@@ -39,7 +39,7 @@ export const NavBar = () => {
               <Nav.Link href="#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
             </Nav>
             <span className="navbar-text">
-            <a href="https://www.linkedin.com/in/inaas-asad/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/aaida-asad-5b9637360/" target="_blank" rel="noreferrer">
               <button><span>Let’s Connect</span></button>
             </a>
           </span>

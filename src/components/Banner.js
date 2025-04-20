@@ -59,7 +59,7 @@ export const Banner = () => {
               <span className="tagline">Step Inside My Creative Universe</span>
               <h1>{`Hi! I'm`} <span className="txt-rotate"><span className="wrap">{text}</span></span></h1>
                 <p>I'm a second-year CCIT and TCS double major at the University of Toronto. Step into my virtual showcase of exciting projects!</p>
-                <a href="https://www.linkedin.com/in/inaas-asad/" target="_blank">
+                <a href="https://www.linkedin.com/in/aaida-asad-5b9637360/" target="_blank">
                   <button>Let’s Connect <ArrowRightCircle size={25} /></button>
                 </a>
             </div>

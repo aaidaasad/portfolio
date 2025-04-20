@@ -1,11 +1,8 @@
 import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
 import eternalrose from "../assets/img/eternalrose.png"
-import tetris from "../assets/img/tetris.png"
-import chatserver from "../assets/img/chat-server.png"
-import artblog from "../assets/img/art-blog.png"
+import sultanique from "../assets/img/sultanique.png"
 import echoesoftheforest from "../assets/img/echoesoftheforest.png"
-import tiktok from "../assets/img/tiktok.jpg"
 import shadowsofjustice from "../assets/img/shadowsofjustice.png"
 import thelionwithin from "../assets/img/thelionwithin.png";
 
@@ -32,19 +29,9 @@ export const Projects = () => {
       link: '/projects/eternalroses',
     },
     {
-      title: 'Tetris',
-      img: tetris,
-      link: '/projects/tetris',
-    },
-    {
-      title: 'Chat Server',
-      img: chatserver,
-      link: '/projects/chat-server',
-    },
-    {
-      title: 'Art Blog',
-      img: artblog,
-      link: '/projects/art-blog',
+      title: 'Sultanique Logo Design',
+      img: sultanique,
+      link: '/projects/sultanique',
     }
   ];
 

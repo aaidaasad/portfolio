@@ -30,6 +30,7 @@ export const Skills = () => {
         'Adobe Illustrator',
         'Adobe Photoshop',
         'Adobe Premiere Pro',
+        'Adobe InDesign',
         'Branding & Logo Design',
         'UI Mockups & Visual Assets',
         'Canva',
