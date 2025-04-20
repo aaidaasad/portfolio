@@ -1,12 +1,13 @@
 import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
-import boggle from "../assets/img/boggle.png"
+import eternalrose from "../assets/img/eternalrose.png"
 import tetris from "../assets/img/tetris.png"
 import chatserver from "../assets/img/chat-server.png"
 import artblog from "../assets/img/art-blog.png"
 import echoesoftheforest from "../assets/img/echoesoftheforest.png"
 import tiktok from "../assets/img/tiktok.jpg"
 import shadowsofjustice from "../assets/img/shadowsofjustice.png"
+import thelionwithin from "../assets/img/thelionwithin.png";
 
 export const Projects = () => {
   const projectData = [
@@ -21,14 +22,14 @@ export const Projects = () => {
       link: '/projects/echoesoftheforest',
     },
     {
-      title: 'TikTok Data App',
-      img: tiktok,
-      link: '/projects/tiktok-data',
+      title: 'The Lion Within',
+      img: thelionwithin,
+      link: '/projects/thelionwithin',
     },
     {
-      title: 'Boggle',
-      img: boggle,
-      link: '/projects/boggle',
+      title: 'Eternal Roses',
+      img: eternalrose,
+      link: '/projects/eternalroses',
     },
     {
       title: 'Tetris',

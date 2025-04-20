@@ -9,7 +9,9 @@ import { Route, Routes } from "react-router-dom";
 
 // Import project pages
 import ShadowsOfJusticeProject from './components/projects/shadowsofjustice';
-import EchoesOfTheForest from './components/projects/echoesoftheforest'; // ✅ Import added here
+import EchoesOfTheForest from './components/projects/echoesoftheforest';
+import TheLionWithin from './components/projects/thelionwithin';
+import EternalRose from './components/projects/eternalroses'; // ✅ Newly added
 
 function Home() {
     return (
@@ -28,7 +30,9 @@ function App() {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects/shadowsofjustice" element={<ShadowsOfJusticeProject />} />
-            <Route path="/projects/echoesoftheforest" element={<EchoesOfTheForest />} /> {/* ✅ New route added */}
+            <Route path="/projects/echoesoftheforest" element={<EchoesOfTheForest />} />
+            <Route path="/projects/thelionwithin" element={<TheLionWithin />} />
+            <Route path="/projects/eternalroses" element={<EternalRose />} /> 
         </Routes>
     );
 }
